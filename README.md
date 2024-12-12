@@ -4,13 +4,8 @@ MIKPOS is a management users and payments that can be used in HotSpot and PPP Mi
 (RouterOS API Based, NOT RADIUS!)
 
 ## Donate
-QRIS & VIRTUAL ACCOUNT (Indonesia Only)
 
-[!["Buy Me A Coffee"](https://nauf.space/orange_img.webp)](https://nauf.space/donate)
-
-### Discuss on Discord
-
-[https://discord.gg/hRqhzX2J4u](https://discord.gg/hRqhzX2J4u)
+[Donate](https://bit.ly/4fQDgwQ)
 
 ### FRONTEND
 
@@ -31,25 +26,29 @@ QRIS & VIRTUAL ACCOUNT (Indonesia Only)
 
 ### BACKEND PACKAGES
 
-* [CodeIgniter 4](https://www.codeigniter.com/) - The small framework with powerful features
-* [evilfreelancer/routeros-api-php](https://github.com/EvilFreelancer/routeros-api-php) - RouterOS API Client.
+- [CodeIgniter 4](https://www.codeigniter.com/) - The small framework with powerful features
+- [evilfreelancer/routeros-api-php](https://github.com/EvilFreelancer/routeros-api-php) - RouterOS API Client.
 
 ## Minimum Requirements
+
 1. [PHP]
-* `php` >=7.2|7.4	
-* `ext-intl`
-* `ext-sockets`
-* `ext-php_openssl`
-* `ext-json` (enabled by default - don't turn it off)
-* `ext-mysqlnd`
-* `ext-libcurl`
-* `ext-mbstring`
-* `ext-xml` (enabled by default - don't turn it off)
+
+- `php` >=7.2|7.4
+- `ext-intl`
+- `ext-sockets`
+- `ext-php_openssl`
+- `ext-json` (enabled by default - don't turn it off)
+- `ext-mysqlnd`
+- `ext-libcurl`
+- `ext-mbstring`
+- `ext-xml` (enabled by default - don't turn it off)
 
 2. [MySQL]
-* MySQL via the MySQLi driver (version 5.1 and above only)
+
+- MySQL via the MySQLi driver (version 5.1 and above only)
 
 ## Setup
+
 Create database 'mikposdb' without quote, then
 Copy `.env.examples` to `.env` and set the database settings.
 Uncomment '#' and set database line settings below :
@@ -58,11 +57,11 @@ Uncomment '#' and set database line settings below :
 database.default.hostname = localhost
 database.default.database = mikposdb
 database.default.username = root
-database.default.password = 
+database.default.password =
 database.default.DBDriver = MySQLi
 ```
 
-## Installation 
+## Installation
 
 1. `composer install`
 2. `php spark migrate`
@@ -78,4 +77,3 @@ Password : `admin`
 ## Important
 
 **Please** don't expose your `.env` file in GitHub repositories or public. This will bring an unexpected consequences for your project.
-
