@@ -63,11 +63,10 @@ database.default.DBDriver = MySQLi
 
 ## Installation
 
-1. `composer install`
-2. `php spark migrate`
-3. `php spark db:seed UsersSeeder`
-4. Run the project with `php spark serve`
-5. Open `http://localhost:8080` on the browser
+1. `php spark migrate`
+2. `php spark db:seed UsersSeeder`
+3. Run the project with `php spark serve`
+4. Open `http://localhost:8080` on the browser
 
 ## Default Dashboard Credential
 
